@@ -1,0 +1,19 @@
+%normal_button {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 7px;
+    border: none;
+}
+%search_section {
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+        &::placeholder {
+            color: #f1f1f1;
+            font-size: 14px;
+            font-weight: 400;
+        }
+}

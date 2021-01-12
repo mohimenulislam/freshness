@@ -1,0 +1,39 @@
+.slider__area {
+    padding-top: 50px;
+    .slider__text {
+        margin-top: 90px;
+        h2 {
+            font-size: 42px;
+        }
+        p {
+            font-size: 14px;
+        }
+        a {
+            background-color: $pripary_color;
+            @extend %normal_button;
+        }
+    }
+}
+
+.single__slider {
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 45px;
+}
+
+.owl-dots {
+    display: inline-block;
+    position: absolute;
+    right: 110px;
+    bottom: 40px;
+    .owl-dot {
+        width: 20px;
+        height: 20px;
+        border: 3px solid $pripary_color !important;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .active {
+        background-color: $pripary_color !important;
+    }
+}
